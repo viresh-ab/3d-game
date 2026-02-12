@@ -13,7 +13,6 @@ Run:
 
 from __future__ import annotations
 
-import math
 from dataclasses import dataclass
 
 from ursina import (
@@ -41,7 +40,6 @@ class CarConfig:
     max_forward_speed: float = 25.0
     max_reverse_speed: float = 10.0
     steering_power: float = 95.0
-    steering_response: float = 1.6
 
 
 class RaceTrack:
